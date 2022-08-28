@@ -26,7 +26,7 @@ And("In opened page I enter valid data to login form and click Log In button", (
   logInPage.logInButton()
 });
 Then("In opened home page i click on Cart button", () => {
-  cy.wait(3000)
+  cy.wait(5000)
   homePage.cartButton()
 });
 And("I check that cart is empty", () => {

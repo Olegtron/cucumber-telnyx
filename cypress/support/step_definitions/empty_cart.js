@@ -19,6 +19,7 @@ When("When This site uses Cookies Window appears I close It", () => {
 });
 Then("I Click on Log In Button", () => {
   mainPage.logInButton()  
+  cy.wait(5000)
 });
 And("In Opened page I enter valid data to login form and click Log In button", () => {
   logInPage.bussinessEmailField()
