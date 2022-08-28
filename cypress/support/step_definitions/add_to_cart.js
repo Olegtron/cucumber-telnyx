@@ -24,8 +24,6 @@ And("In opened page I enter valid data to login form and click Log In button", (
   logInPage.bussinessEmailField()
   logInPage.passwordField()
   logInPage.logInButton()
-
-  cy.wait(5000)
 });
 Then("In opened home page i click on Cart button", () => {
   homePage.cartButton()
