@@ -13,7 +13,8 @@
     "cucumber-html-reporter": "^5.5.0"
   },
   "scripts": {
-    "test": "cypress run --spec \"**/*.feature\""
+    "test": "cypress run --spec \"**/*.feature\"",
+    "cypress:report": "node cucumber-html-report.js"
   },
   "author": "",
   "license": "ISC"
