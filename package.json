@@ -13,17 +13,6 @@
     "cucumber-html-reporter": "^5.5.0",
     "cypress-cucumber-preprocessor": "^4.3.1"
   },
-  "cypress-cucumber-preprocessor": {
-    "json": {
-      "enabled": true,
-      "output": "jsonlogs/log.json",
-      "formater": "cucumber-json-formatter.exe"
-    },
-    "messages": {
-      "enabled": true,
-      "output": "jsonlogs/messages.ndjson"
-    }
-  },
   "scripts": {
     "test": "cypress run --spec \"**/*.feature\"",
     "cypress:report": "node cucumber-html-report.js"

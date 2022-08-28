@@ -3,3 +3,8 @@ cypress/screenshots
 cypress/videos
 cypress/fixtures
 .npmrc
+cypress/support/step_definitions/add_to_cart.js
+cypress/support/step_definitions/empty_cart.js
+cypress/support/step_definitions/join_waitlist_valid.js
+cypress/support/step_definitions/request_demo.js
+cypress/support/step_definitions/talk_to_expert_valid.js
