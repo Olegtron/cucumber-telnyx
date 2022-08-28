@@ -9,7 +9,9 @@
     "cypress": "^10.6.0",
     "cypress-real-events": "^1.7.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.5.0"
+  },
   "scripts": {
     "test": "cypress run --spec \"**/*.feature\""
   },
