@@ -26,7 +26,7 @@ And("In opened page I enter valid data to login form and click Log In button", (
   logInPage.logInButton()
 });
 Then("In opened home page i click on Cart button", () => {
-  cy.wait(5000)
+  cy.wait(8000)
   homePage.cartButton()
 });
 And("I check that cart is empty", () => {
@@ -39,7 +39,7 @@ And("I add some product to my cart and check that product added", () => {
   searchNumbersPage.exampleSearchesToggle()
   searchNumbersPage.searchNumbersButton()
   searchNumbersPage.addProductButton()
-  cy.wait(3000)
+  cy.wait(6000)
   searchNumbersPage.cartButton()
 
   cartPage.checkMark()
