@@ -9,6 +9,7 @@ When("When This site uses cookies window appears i close IT", () => {
     mainPage.cookieCloseButton()
 });
 Then("^I scroll page to switch+save with Telnyx block", () => {
+    cy.wait(2000)
     mainPage.switchAndSaveBlock()
 });
 And("I click on SMS button", () => {

@@ -10,6 +10,7 @@ When("When This site uses Cookies window appears i close It", () => {
   mainPage.cookieCloseButton()
 });
 Then("I scroll down to Switch + Save with Telnyx section and click Create a free trial account button", () => {
+  cy.wait(2000)
   mainPage.switchAndSaveBlock()
   mainPage.createTrialAccButton()
   });
