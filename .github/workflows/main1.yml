@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Cypress run
         uses: cypress-io/github-action@v4
-          with:
+        with:
           working directory: cypress_cucumber
           install-command: npm install
           build: npm run build
