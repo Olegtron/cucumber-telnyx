@@ -1,7 +1,7 @@
 class homePage
 {
     cartButton(){
-        const reasonDropDown = cy.get('div.tx-Z12IMoF > button').click()
+        return cy.get('div.tx-Z12IMoF > button').click()
     }
 }
 
