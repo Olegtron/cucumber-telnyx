@@ -9,8 +9,7 @@
     "cypress": "^10.6.0",
     "cypress-real-events": "^1.7.1"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "scripts": {
     "cypress:open": "cypress open",
     "cypress:run": "npx cypress run"

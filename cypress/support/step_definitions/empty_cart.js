@@ -16,6 +16,7 @@ Given("I Visit telnyx.com Website Main Page", () => {
 });
 When("When This site uses Cookies Window appears I close It", () => {
   mainPage.cookieCloseButton()
+  cy.wait(2000)
 });
 Then("I Click on Log In Button", () => {
   mainPage.logInButton()  
@@ -25,10 +26,11 @@ And("In Opened page I enter valid data to login form and click Log In button", (
   logInPage.bussinessEmailField()
   logInPage.passwordField()
   logInPage.logInButton()
-  cy.wait(8000)
 });
 Then("In Opened home page i click on Cart button", () => {
+  cy.wait(5000)
   homePage.cartButton()
+  cy.wait(3000)
 });
 And("I Check that cart is empty", () => {
   cartPage.emptyCartText()
