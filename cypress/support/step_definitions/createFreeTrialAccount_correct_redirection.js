@@ -8,11 +8,12 @@ Given("I visit telnyx.com Website main pagE", () => {
 });
 When("When This site uses Cookies window appears i close It", () => {
   mainPage.cookieCloseButton()
+  cy.wait(4000)
 });
 Then("I scroll down to Switch + Save with Telnyx section and click Create a free trial account button", () => {
-  cy.wait(2000)
   mainPage.switchAndSaveBlock()
   mainPage.createTrialAccButton()
+  y.wait(4000)
   });
 And("I should be redirected to sign-up page", () => {
   signUpPage.checkUrl()

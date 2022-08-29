@@ -1,6 +1,6 @@
 Feature: switch and save with Telnyx sliders functionality check for sms tab
   Scenario: switch and save with Telnyx sliders functionality check for sms tab
-    Given I visit telnyx.com website main page
+    Given I visit telnyx.com website main page$^
     When When This site uses cookies window appears i close IT
     Then ^I scroll page to switch+save with Telnyx block
     And I click on SMS button

@@ -2,7 +2,7 @@ const { Given, When, Then, And } = require("@badeball/cypress-cucumber-preproces
 
 import mainPage from '../../e2e/page_objects/mainPage'
 
-Given("I go to telnyx.com website main page", () => {
+Given("^$I visit telnyx.com website main page", () => {
     cy.visit("https://telnyx.com/");
 });
 When("When This site uses cookies window appears i close it^", () => {
